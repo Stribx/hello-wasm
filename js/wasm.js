@@ -1,4 +1,4 @@
-import init, { increment, decrement} from "./pkg/hello_wasm.js";
+import init, { increment, decrement} from "../pkg/hello_wasm.js";
 init().then(() => {
   let count = 0;
   const buttonIncrement = document.getElementById("increment");
